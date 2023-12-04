@@ -455,11 +455,13 @@ main span {
 
  /* COLUNA DAS IMAGENS*/
  
-.container {
+ .container {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch; /* Estica as colunas para a altura total do contêiner */
   text-align: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .column {
@@ -483,12 +485,13 @@ main span {
   margin-top: 8px;
   text-align: justify;
   font-family: "Open Sans";
-  font-size: 16px; 
+  font-size: 16px;
+  flex-grow: 1; /* Permite que o texto estique para preencher a altura disponível */
 }
 
 .h2-nova-classe {
   font-family: 'Open Sans', sans-serif;
-  font-size: 24px; 
+  font-size: 24px;
 }
 
 .conteudo .column h2 {
@@ -529,7 +532,7 @@ main span {
 
   .container,
   .img-coluna {
-    margin: 30px 10%;
+    margin: 30px 5%;
     max-width: 80%;
     width: auto;
     margin: 0 auto;
@@ -615,6 +618,7 @@ main span {
   justify-content: center;
   align-items: center;
   position: relative;
+  
 }
 
 .redes-sociais {

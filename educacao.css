@@ -722,7 +722,7 @@ main span {
 @media screen and (max-width: 1300px) {
   .secao3-home {
     display: grid;
-    margin-top: 140px;
+    margin-top: 200px;
     place-items: center;
   }
 
@@ -739,7 +739,7 @@ main span {
 
   .secao3-home div,
   .secao3-home img {
-    max-width: 80%;
+    max-width: 70%;
     width: 100%;
     margin: 0 auto;
     margin-top: -50px;

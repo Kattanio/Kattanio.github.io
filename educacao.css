@@ -312,6 +312,7 @@ section.ondas-box{
 /* CONTEÚDO PÁGINA */
 
 /* Estilos para SEÇÃO 1 */
+
 .secao1-home {
   position: relative;
   display: flex;
@@ -329,14 +330,12 @@ section.ondas-box{
   text-align: center;
 }
 
-.secao1-home p,
-.secao2-home p,
-.secao3-home p {
-  text-align: left;
+.secao1-home p {
+  text-align: justify;
   font-family: 'Open Sans';
   padding-bottom: 3.5rem;
-  font-size: 20px;
-  margin-top: -50px;
+  font-size: clamp(30px, 1.5vw, 20px);
+  margin-right: 30px;
 }
 
 .secao1-home img {
@@ -344,7 +343,7 @@ section.ondas-box{
   max-width: 680px;
   height: auto;
   border-radius: 5%;
-  margin-bottom: 20px;
+  margin-bottom: -100px;
   align-items: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
@@ -514,6 +513,15 @@ main span {
   margin-top: 50p;
 }
 
+.secao2-home p {
+  text-align: justify;
+  font-family: 'Open Sans';
+  padding-bottom: 3.5rem;
+  font-size: clamp(25px, 1.5vw, 20px);
+  margin-top: -100px;
+  margin-right: 30px;
+}
+
 .secao2-home img {
   width: auto;
   max-width: 680px;
@@ -527,7 +535,7 @@ main span {
 @media screen and (max-width: 1300px) {
   .secao2-home {
     display: grid;
-    margin-top: 300px;
+    margin-top: 150px;
     place-items: center;
   }
 
@@ -547,6 +555,7 @@ main span {
     max-width: 80%;
     width: 100%;
     margin: 0 auto;
+    margin-bottom: -60px;
   }
 
   .secao2-home p {
@@ -573,7 +582,7 @@ main span {
   .secao2-home img {
     max-width: 100%;
     width: 100%;
-    margin-top: -20px;
+    margin-top: 20px;
   }
 
   .secao2-home p {
@@ -624,8 +633,13 @@ main span {
 }
 
 @media screen and (max-width: 1300px) {
+
+  .outra-div2 {
+    margin-top: 100px;
+  }
+
+
   .outra-div2 img {
-    
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     object-fit: cover;
     width: 100%; 
@@ -686,6 +700,15 @@ main span {
   margin-top: 50p;
 }
 
+.secao3-home p {
+  text-align: justify;
+  font-family: 'Open Sans';
+  padding-bottom: 3.5rem;
+  font-size: clamp(30px, 1.5vw, 20px);
+  margin-top: -50px;
+  margin-right: 30px;
+}
+
 .secao3-home img {
   width: auto;
   max-width: 680px;
@@ -699,7 +722,7 @@ main span {
 @media screen and (max-width: 1300px) {
   .secao3-home {
     display: grid;
-    margin-top: 300px;
+    margin-top: 140px;
     place-items: center;
   }
 
@@ -719,6 +742,7 @@ main span {
     max-width: 80%;
     width: 100%;
     margin: 0 auto;
+    margin-top: -50px;
   }
 
   .secao3-home p {

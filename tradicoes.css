@@ -329,10 +329,7 @@ section.ondas-box{
   text-align: center;
 }
 
-.secao1-home p,
-.secao2-home p,
-.secao3-home p,
-.secao4-home p {
+.secao1-home p{
   text-align: left;
   font-family: 'Open Sans';
   padding-bottom: 3.5rem;
@@ -359,6 +356,7 @@ main span {
   .secao1-home {
     display: grid;
     place-items: center;
+    margin-top: 200px;
   }
 
   .secao1-home h1-container {
@@ -437,7 +435,7 @@ main span {
 
 .conteudo-circulos p {
   font-family: 'Open Sans', sans-serif;
-  font-size: clamp(20px, 1.5vw, 20px);
+  font-size: clamp(30px, 1.5vw, 20px);
   text-align: center;
   align-items: center;
   padding: 20px;
@@ -517,6 +515,10 @@ main span {
   .ciruclo-coluna {
     transform: scale(2); /* Adjust the scale as needed */
   }
+
+  .conteudo-circulos p {
+    font-size: clamp(20px, 1.5vw, 20px);
+  }
 }
 
 @media screen and (max-width: 825px) {
@@ -529,6 +531,11 @@ main span {
   .ciruclo-coluna {
     transform: scale(1.5); /* Adjust the scale as needed */
   }
+
+  .conteudo-circulos p {
+    font-size: clamp(20px, 1.5vw, 20px);
+  }
+
 }
 
 
@@ -622,7 +629,17 @@ main span {
   justify-content: center;
   gap: 1rem;
   padding: 3.5rem 5%;
-  margin-top: 300px;
+  margin-top: 220px;
+}
+
+.secao2-home p {
+
+  text-align: left;
+  font-family: 'Open Sans';
+  padding-bottom: 3.5rem;
+  font-size: 20px;
+  margin-top: -130px;
+
 }
 
 .secao2-home h2-container {
@@ -660,6 +677,10 @@ main span {
     text-align: justify;
   }
 
+  .secao2-home p {
+    margin-top: -220px;
+  }
+
   .secao2-home h2 {
     font-size: clamp(1rem, 1vw + 2rem, 2.6em);
     margin-top: 100px;
@@ -691,6 +712,10 @@ main span {
   .secao2-home h2 {
     font-size: clamp(2rem, 1vw + 1rem, 1rem);
     margin-top: 20px;
+  }
+
+  .secao2-home p {
+    margin-top: -60px;
   }
 
   .secao2-home div,
@@ -968,7 +993,17 @@ main span {
   justify-content: center;
   gap: 1rem;
   padding: 3.5rem 5%;
-  margin-top: 300px;
+  margin-top: 220px;
+}
+
+.secao3-home p {
+
+  text-align: left;
+  font-family: 'Open Sans';
+  padding-bottom: 3.5rem;
+  font-size: 20px;
+  margin-top: -50px;
+
 }
 
 .secao3-home h2-container {
@@ -997,7 +1032,7 @@ main span {
 @media screen and (max-width: 1300px) {
   .secao3-home {
     display: grid;
-    margin-top: 300px;
+    margin-top: 100px;
     place-items: center;
   }
 
@@ -1025,18 +1060,23 @@ main span {
     text-align: justify;
     font-size: 20px;
     justify-content: left;
+    margin-top: 70px;
   }
 }
 
 @media screen and (max-width: 825px) {
   .secao3-home {
     display: grid;
-    margin-top: 150px;
+    margin-top: 5%;
   }
 
   .secao3-home h2 {
     font-size: clamp(2rem, 1vw + 1rem, 1rem);
     margin-top: 20px;
+  }
+
+  .secao3-home h2 {
+    margin-top: -220px;
   }
 
   .secao3-home div,
@@ -1242,6 +1282,16 @@ main span {
   margin-top: 220px;
 }
 
+.secao4-home p {
+
+  text-align: left;
+  font-family: 'Open Sans';
+  padding-bottom: 3.5rem;
+  font-size: 20px;
+  margin-top: -50px;
+
+}
+
 .secao4-home h2-container {
   width: 100%;
   text-align: center;
@@ -1335,18 +1385,17 @@ main span {
 }
 
 .circle {
-  width: 800px; /* Tamanho ajustável conforme necessário */
-  height: 800px; /* Tamanho ajustável conforme necessário */
-  border-radius: 70%;
-  overflow: hidden; /* Garante que a imagem não ultrapasse os limites do círculo */
-  box-sizing: border-box; /* Evita que a borda afete as dimensões totais do elemento */
+  width: 100%;
+  max-height: 100%; 
+  overflow: hidden; 
+  box-sizing: border-box; 
 }
 
 .circle img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Garante que a imagem cubra todo o espaço disponível */
-  object-position: center; /* Posiciona a imagem no centro do círculo */
+  object-fit: cover;
+  object-position: center; 
 }
 
 .h2-container {
@@ -1355,9 +1404,10 @@ main span {
 }
 
 .circulo-final h2 {
-  font-size: clamp(1rem, 1vw + 2rem, 2.6em);
-  margin-top: 10px; /* Ajuste conforme necessário */
+  font-size: clamp(4.2rem, 1vw + 2rem, 2.6em);
+  margin-top: 100px; 
   text-align: center;
+  align-items: center;
 }
 
 .circulo-final div,
@@ -1368,9 +1418,9 @@ main span {
 }
 
 .circulo-final p {
-  text-align: justify;
-  font-size: 20px;
-  margin-top: 10px; /* Ajuste conforme necessário */
+  text-align: left;
+  font-size: clamp(30px, 1.5vw, 50px);
+  margin-top: 100px; 
 }
 
 @media screen and (max-width: 1300px) {
@@ -1381,18 +1431,21 @@ main span {
 
   .circle {
     margin-bottom: 20px;
+    margin: 0 auto;
   }
 
   .h2-container {
     margin-left: 0;
+    text-align: center; /* Adicionado para centralizar o h2 */
   }
 
   .circulo-final h2 {
-    margin-top: 20px; /* Ajuste conforme necessário */
+    margin-top: 10px; /* Ajuste conforme necessário */
+    font-size: clamp(2.6em, 1vw + 2rem, 2.6em);
     text-align: justify;
   }
 
   .circulo-final p {
-    margin-top: 10px; /* Ajuste conforme necessário */
+    margin-top: 60px; 
   }
 }

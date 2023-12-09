@@ -1402,6 +1402,7 @@ main span {
 .h2-container {
   flex-grow: 1;
   margin-left: 20px;
+  margin: 0 auto;
 }
 
 .circulo-final h2 {
@@ -1436,12 +1437,13 @@ main span {
   }
 
   .h2-container {
-    margin-left: 0;
-    text-align: center; /* Adicionado para centralizar o h2 */
+  
+    text-align: center; 
+
   }
 
   .circulo-final h2 {
-    margin-top: 10px; /* Ajuste conforme necessário */
+    margin: 0 auto;
     font-size: clamp(2.6em, 1vw + 2rem, 2.6em);
     text-align: justify;
   }

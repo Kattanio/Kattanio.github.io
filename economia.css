@@ -318,10 +318,7 @@ section.ondas-box{
 
 /* FIM RODAPÉ FINAL */  
 
-
-
-
-/*COMEÇO DO CONTEÚDO ECONOMIA */
+/* CONTEÚDO ECONOMIA */
 
 /* PARTE 1 */
 
@@ -430,7 +427,6 @@ section.ondas-box{
       margin-top: 150px;
       display: flex;
       align-items: center; 
-      background-color: #F6F5F2;
       padding-top: 25px;
       padding-bottom: 25px;
       margin: 0 auto;
@@ -726,6 +722,4 @@ section.ondas-box{
     }
   }
 
-
-  /*FIM DO CONTEÚDO ECONOMIA */
   
